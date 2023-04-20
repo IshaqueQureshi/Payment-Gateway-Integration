@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>contactme</title>
+        <link rel="icon" href="contacticon.png">
+        <style>
+            body{
+                /* background-image: url("beach.jpg"); */
+                background-image: url("https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            div{
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: auto;
+                
+            }
+            div ul{
+                border: 10px 10px 10px 10px;
+                border: 2px solid black;
+                border-radius: 10px;
+                padding: 15px 15px 15px 15px;
+                /* background-color: antiquewhite; */
+                /* background-image: url("download.jpg");
+                background-size: cover; */
+            }
+            input{
+                padding: 10px 130px 10px 10px;
+                border-radius: 10px;
+                /* display: block;
+                width: 150px; */
+            }
+            input:hover{
+                color: #000;
+                background-color:rgb(101, 172, 235);
+            }
+            
+            textarea{
+                padding: 10px 130px 10px 10px;
+                color: #000;
+                background-color:aliceblue;
+                border-radius: 10px;
+            }
+            textarea:hover{
+                color: #000;
+                background-color:aliceblue;
+                
+            }
+            .btn{
+                padding: 20px 20px 20px 20px;
+                margin-left:200px ;
+                border: 3px solid rgb(16, 13, 14);
+                border-radius: 10px;
+                font-size: 25px;
+            }
+            .btn:hover{
+                padding: 20px 20px 20px 20px;
+                margin-left:200px ;
+                border: 3px solid coral;
+                border-radius: 20px;
+                font-size: 25px;
+                background-color: rgb(252, 10, 10);
+                color: white;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div >
+            <ul type="none">
+                <li><h1><i>Name:&nbsp;</i><input type="text" placeholder="Enter Your Name"></h1></li>
+                <li><h1><i>Email:&nbsp;</i><input type="text" placeholder="Enter Your Email"></h1></li>
+                <li><h1><i>Comment:&nbsp;</i><textarea rows="5" placeholder="comment here"></textarea>
+                </h1></li>
+               <li><a href="submit.htm"><button  class="btn">Submit</button></a></li>
+            </ul>
+        </div>
+    </body>
+</html>
